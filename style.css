@@ -1,23 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+/* Exo */
+
+@import url('https://fonts.googleapis.com/css?family=Hind&display=swap');
+/* Hind */
+
+@import url('https://fonts.googleapis.com/css?family=Overlock&display=swap');
+/* Overlock */
+
 html{
 	overflow-x: hidden;
+	min-width: 1000px;
 }
 .top{
-	background-image: url('https://s3-us-west-1.amazonaws.com/contentlab.studiod/getty/637ea365e76142f69bd48ec910f52010');
-	background-size: contain;
-	background-repeat: no-repeat;
-	height: 500px;
 	text-align: center;
 	color: white;
-	font-family: sans-serif;
-	display: block;
-	margin: auto;
-	max-width: 100%;
-	max-height: 100%;
-	padding: 0;
+	font-family: 'Exo', sans-serif;
+}
+.top img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+	min-width: 1000px;
 }
 .top h1{
-	font-size: 72pt;
+	font-size: 180pt;
+	margin-top: 70px;
+	margin-bottom: 0;
 }
 .top h2{
-	font-size: 48pt;
+	font-size: 90pt;
+	margin-top: -70px;
+	margin-bottom: 10px;
+	letter-spacing: 6pt;
+}
+.top h3{
+	font-size: 30pt;
+	margin-top: 25px;
+	letter-spacing: 3pt;
+}
+#line{
+	background-color: white;
+	display: inline-block;
+	width: 600px;
+	height: 10px;
 }
