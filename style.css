@@ -81,6 +81,7 @@ a{
 	border-radius: 10px;
 	background-color: rgba(0, 0, 0, 0.2);
 	transition-duration: 2s;
+	min-width: 200px;
 }
 .content .border-wrap:hover{
 	padding-left: 12%;
