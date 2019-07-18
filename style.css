@@ -10,6 +10,12 @@
 html{
 	overflow-x: hidden;
 	min-width: 1000px;
+	  background-color: black;
+}
+a{
+	text-decoration: none;
+	color: white;
+	transition: 0s;
 }
 .top{
 	text-align: center;
@@ -38,7 +44,7 @@ html{
 }
 .top h3{
 	font-size: 30pt;
-	margin-top: 25px;
+	margin-top: -15px;
 	letter-spacing: 3pt;
 }
 #line{
@@ -46,4 +52,42 @@ html{
 	display: inline-block;
 	width: 600px;
 	height: 10px;
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+.content div{
+	display: inline-block;
+	width: 30%;
+	flex: 1;
+	text-align: center;
+	color: white;
+	font-family: 'Exo', sans-serif;
+}
+.content h1{
+	font-size: 25pt;
+}
+.content h2{
+	font-size: 12pt;
+}
+.content .border-wrap{
+	border: 5px solid rgba(255, 255, 255, 0.7);
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 2%;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.2);
+	transition-duration: 2s;
+}
+.content .border-wrap:hover{
+	padding-left: 12%;
+	padding-right: 12%;
+	padding-bottom: 4%;
+	padding-top: 2%;
+	border: 5px solid rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 0.7);
+	transition-duration: 1s;
 }

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+/* Exo */
+
+@import url('https://fonts.googleapis.com/css?family=Hind&display=swap');
+/* Hind */
+
+@import url('https://fonts.googleapis.com/css?family=Overlock&display=swap');
+/* Overlock */
+
+html{
+	overflow-x: hidden;
+	min-width: 1000px;
+}
+#back{
+  text-align: center;
+	color: white;
+	font-family: 'Exo', sans-serif;
+  font-size: 100pt;
+  position: fixed;
+  margin-left: 30px;
+  margin-top: -1px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	transition: 0s;
+}
+.top{
+	text-align: center;
+	color: white;
+	font-family: 'Exo', sans-serif;
+}
+.top img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+	min-width: 1000px;
+}
+.top h1{
+	font-size: 140pt;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+#line{
+	background-color: white;
+	display: inline-block;
+	width: 600px;
+	height: 10px;
+}
+
+.blog{
+  text-align: center;
+	color: white;
+	font-family: 'Exo', sans-serif;
+}
+.blog h1{
+  font-size: 40pt;
+  margin-top: 15px;
+  padding-bottom: 0;
+}
+.blog p{
+  font-size: 14pt;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.blog-backwrap{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
