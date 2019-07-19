@@ -10,6 +10,7 @@
 html{
 	overflow-x: hidden;
 	min-width: 1000px;
+	background-color: black;
 }
 #back{
   text-align: center;
@@ -74,4 +75,9 @@ a{
   margin-top: 100px;
   padding-top: 10px;
   padding-bottom: 30px;
+}
+.blog img{
+	width: 52vw;
+	padding-top: 10px;
+	padding-bottom: 30px;
 }
