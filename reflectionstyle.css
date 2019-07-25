@@ -9,7 +9,6 @@
 
 html{
 	overflow-x: hidden;
-	min-width: 1000px;
 	background-color: black;
 }
 #back{
@@ -19,7 +18,7 @@ html{
   font-size: 100pt;
   position: fixed;
   margin-left: 30px;
-  margin-top: 170px;
+  margin-top: -95px;
 }
 a{
 	text-decoration: none;
@@ -82,6 +81,36 @@ a{
 	padding-bottom: 30px;
 }
 
-@media (max-width: 769;){
-
+@media (max-width: 1000px){
+	.top h1{
+		font-size: 16vw;
+	}
+	.blog h1{
+	  font-size: 7vw;
+	}
+	.blog p{
+	  font-size: 3vw;
+	}
+	.blog-backwrap{
+	  margin-left: 7%;
+	  margin-right: 7%;
+	}
+	#back{
+		position: relative;
+	  font-size: 25vw;
+	  margin-top: -18vw;
+		margin-left: 0;
+		text-align: left;
+	}
+	#line{
+		width: 65vw;
+		height: 10px;
+		margin-top: 4.5vw;
+	}
+	.blog img{
+		width: 70vw;
+	}
+	.blog{
+	  margin-top: -75px;
+	}
 }
