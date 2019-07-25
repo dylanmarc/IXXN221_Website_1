@@ -75,8 +75,13 @@ a{
   padding-top: 10px;
   padding-bottom: 30px;
 }
-.blog img{
+.blog .landscape{
 	width: 52vw;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.blog .portrait{
+	width: 20vw;
 	padding-top: 10px;
 	padding-bottom: 30px;
 }
@@ -107,10 +112,15 @@ a{
 		height: 10px;
 		margin-top: 4.5vw;
 	}
-	.blog img{
-		width: 70vw;
-	}
 	.blog{
 	  margin-top: -75px;
+	}
+	.blog .landscape{
+		width: 70vw;
+	}
+	.blog .portrait{
+		width: 40vw;
+		padding-top: 10px;
+		padding-bottom: 30px;
 	}
 }
